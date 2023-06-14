@@ -4,6 +4,20 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@fontsource/jetbrains-mono':
+    specifier: ^5.0.3
+    version: 5.0.3
+  '@fontsource/manrope':
+    specifier: ^5.0.3
+    version: 5.0.3
+  lucide-svelte:
+    specifier: ^0.244.0
+    version: 0.244.0(svelte@3.59.1)
+  open-props:
+    specifier: ^1.5.8
+    version: 1.5.8
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -284,6 +298,14 @@ packages:
     resolution: {integrity: sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/jetbrains-mono@5.0.3:
+    resolution: {integrity: sha512-0zbVAm0dVaBo7x9Q4ceX4VWe5VSM1Jaonb85bC+LR7fTpPeOpQs1nPDSdR55XMGSghl7ElsL12g8AaJKwXoutw==}
+    dev: false
+
+  /@fontsource/manrope@5.0.3:
+    resolution: {integrity: sha512-MlRhrzpIEcgAB0MFdlQ/LVD5C4XB53Pq13Wxxb3inyEAPG+gSBoHW1NKGOWwOQs22FLlengtbOkmL5br2/YASw==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}
@@ -1206,6 +1228,14 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lucide-svelte@0.244.0(svelte@3.59.1):
+    resolution: {integrity: sha512-FOzIF+1EUHllYLmSCLo0UFqyI6+796lcBLKnA7wz21TELGETlR/xzJDEiU7YlS8ybRau2t3lzFv8h4Wj8z3oDQ==}
+    peerDependencies:
+      svelte: ^3.49.0
+    dependencies:
+      svelte: 3.59.1
+    dev: false
+
   /magic-string@0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
@@ -1299,6 +1329,10 @@ packages:
     dependencies:
       wrappy: 1.0.2
     dev: true
+
+  /open-props@1.5.8:
+    resolution: {integrity: sha512-pE9oKg+4rDrKNJpHNSP1ensgMz41YW5pPCHExd4P12595gdObMmiO1OhTvXG0t7inRS54GhyZr5jm+28XzapEg==}
+    dev: false
 
   /optionator@0.9.1:
     resolution: {integrity: sha512-74RlY5FCnhq4jRxVUPKDaRwrVNXMqsGsiW6AJw4XK8hmtm10wC0ypZBLw5IIp85NZMr91+qd1RvvENwg7jjRFw==}
@@ -1674,7 +1708,6 @@ packages:
   /svelte@3.59.1:
     resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
     engines: {node: '>= 8'}
-    dev: true
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
