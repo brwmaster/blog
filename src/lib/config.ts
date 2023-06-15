@@ -1,4 +1,4 @@
-import { dev } from "$app/environment"
+import { dev } from '$app/environment'
 
 export const title = 'edwinboon.dev'
 export const description = 'SvelteKit blog build for developers'
